@@ -1,0 +1,4 @@
+# tell SSH to use ~/.ssh/sock/ssh_auth_sock, a symlink created/updated by ~/.ssh/.rc
+
+Host *
+    IdentityAgent ~/.ssh/sock/ssh_auth_sock

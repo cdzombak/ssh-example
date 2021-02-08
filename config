@@ -1,0 +1,24 @@
+IgnoreUnknown Include
+Include ~/.ssh/config.local/*
+
+#############################################
+# Base configuration                        #
+# ref: https://www.noah.org/wiki/SSH_config #
+#############################################
+Host *
+    Compression yes
+    GSSAPIAuthentication no
+    ForwardX11 no
+    ForwardX11Trusted no
+    ServerAliveInterval 30
+    ServerAliveCountMax 120
+    TCPKeepAlive no
+
+#############################################
+# Personal servers                          #
+#############################################
+
+Host dzombak.com
+    User chris
+    HostName dzombak.com
+    ForwardAgent yes

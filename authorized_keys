@@ -1,0 +1,3 @@
+# Client machines which support 2FA SSH keys:
+
+ecdsa-sha2-nistp256 deadbeef64 chris@example / Yubikey

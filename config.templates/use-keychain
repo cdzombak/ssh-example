@@ -1,0 +1,6 @@
+# Enable this on macOS systems which _do not use_ Yubikey or Secretive
+# to manage SSH keys.
+
+Host *
+    AddKeysToAgent yes
+    UseKeychain yes

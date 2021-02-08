@@ -1,0 +1,13 @@
+# keys:
+id_*
+
+# known hosts:
+known_hosts
+
+# local config:
+config.local/*
+!config.local/.gitkeep
+
+# directory for SSH_AUTH_SOCKET symlink
+sock/*
+!sock/.gitkeep

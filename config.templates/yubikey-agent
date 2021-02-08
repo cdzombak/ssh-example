@@ -1,0 +1,4 @@
+# set IdentityAgent to use https://github.com/FiloSottile/yubikey-agent
+
+Host *
+    IdentityAgent /usr/local/var/run/yubikey-agent.sock
