@@ -10,7 +10,7 @@ SSH into the new machine, with agent forwarding enabled, from a client machines 
 # in ~
 
 git clone git@github.com:cdzombak/ssh-example.git
-rm -rf .ssh
+mv .ssh .ssh-bak
 mv ssh-example .ssh
 ./.ssh/fix-permissions.sh
 ```
